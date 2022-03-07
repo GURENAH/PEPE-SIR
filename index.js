@@ -373,7 +373,7 @@ const checkRegisteredUser = (sender) => {
     const totalhit = JSON.parse(fs.readFileSync("./lib/totalcmd.json"))[0]
       .totalcmd;
 const daftar1 = `❑ Hi ${pushname} 🐦 ${ucapanWaktu} \n\n❑ Before Using the Bot Verify First 🙂`
-       const daftar2 = '```Click the button below to verify bro or type #verify\nGUREN 😎```'
+       const daftar2 = '```Click the button below to verify bro or type #verify\n𝑮𝒖𝒓𝒆𝒏 😎```'
        const daftar3 = [
           {
             buttonId: `verify`,
@@ -929,11 +929,11 @@ remoteJid :"6289523258649-1604595598@g.us" }: {})
                     },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 😎`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
 // Katalog
 const reply = (teks) => {
-             res = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*pepe*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = xeon.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "*𝑮𝒖𝒓𝒆𝒏*", "thumbnail": bgg, "surface": 'CATALOG' }}, {quoted:ftrol})
              xeon.relayWAMessage(res)
         }
 const fakewa = (teks) => {        
-xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `pepe`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/917736622139?text=hello`}}})
+xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `𝑮𝒖𝒓𝒆𝒏`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/917736622139?text=hello`}}})
 		}
 const replyfakelink = (teks) => {
 xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
@@ -941,7 +941,7 @@ xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `Whatsapp-BOT\n𝙿𝙴𝙿𝙴 𝚂𝙸𝚁😎. (@nnda.krnwn_) •Instagram photos and Videos`,
+                "title": `Whatsapp-BOT\n𝑮𝒖𝒓𝒆𝒏😎. (@nnda.krnwn_) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
