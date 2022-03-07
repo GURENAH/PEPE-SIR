@@ -4945,12 +4945,14 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
         await xeon.sendMessage(from, li, image, { quoted: mek });
         break;
       case 'pinterest':
-        /*if (!q) return reply("gambar apa?");*/
+        /*if (!q) return reply("What are you looking for?");*/
         reply(mess.wait)
         let pin = await hx.pinterest(q);
         let ac = pin[Math.floor(Math.random() * pin.length)];
         let di = await getBuffer(ac);
-buttons = [{buttonId: `pinterest`,buttonText:{displayText: `➡️Next`},type:1}]
+buttons = [{buttonId: ` let pin = await hx.pinterest(q);
+        let ac = pin[Math.floor(Math.random() * pin.length)];
+        let di = await getBuffer(ac);`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await xeon.prepareMessageMedia(di, "imageMessage", { thumbnail: di, })).imageMessage
               buttonsMessage = {footerText:'𝙿𝙴𝙿𝙴 𝚂𝙸𝚁', imageMessage: imageMsg,
               contentText:`ɴᴏᴛᴇ: ʜᴏʀɴʏ = ʙᴏɴᴋs`,buttons,headerType:4}
